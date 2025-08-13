@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Aula02RH.Models.Enuns;
 
+//assitam Hora de Aventura!!! "nunca vi rastro de cobra nem couro de lobisomem, se correr o bicho pega, se ficar o bicho come, porque eu sou é homem, porque eu sou é homem, menina eu sou é homem, menina eu sou é homem."
+
 namespace Aula02RH.Models
 {
     public class Funcionario
