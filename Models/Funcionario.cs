@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -37,5 +38,18 @@ namespace Aula02RH.Models
             return desconto;
         }
 
+
+        private int ConteCaracter(String dado)
+        {
+            return dado.Length;
+        }
+
+        public bool ValidarCPF()
+        {
+            if(ConteCaracter(CPF) == 11)
+                return true;
+            else
+                return false;
+        }
     }
 }
